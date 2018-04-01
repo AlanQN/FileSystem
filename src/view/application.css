@@ -1,0 +1,28 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* Colors of JavaFX pie chart slices. */
+.data0.chart-pie { -fx-background-color: #87CEFA; }
+.data1.chart-pie { -fx-background-color: #D0D0D0; }
+
+/* Pie Chart legend background color and stroke. */
+.chart-legend { -fx-background-color: #F0F0F0; }
+
+.root {
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 12px;
+    /*-fx-background-image: url(images/pane.jpg);*/
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+}
+
+.tree-view {
+    -fx-background-color: #FFFFFF00;
+    -fx-border-width:1.0;
+    -fx-border-color:#A9C3DDDD;
+}
+.tree-cell {
+	-fx-background-color: #FFFFFF00;
+}
+.tree-cell:selected {
+    -fx-background-color: #AABBCC55;
+    -fx-text-fill: #66AABB;
+}
